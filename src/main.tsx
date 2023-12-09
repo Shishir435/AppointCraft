@@ -1,8 +1,3 @@
-/**
- * Renders the main application component.
- * @component
- */
-
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import App from './App.tsx';
@@ -39,12 +34,6 @@ const router = createBrowserRouter([
   },
 ]);
 
-/**
- * Mounts the React app to the DOM.
- * @function
- * @param {React.ReactElement} element - The root React element.
- * @param {HTMLElement} container - The container to mount the element on.
- */
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
