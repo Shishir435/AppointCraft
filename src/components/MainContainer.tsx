@@ -15,8 +15,8 @@ const MainContainer = () => {
   return (
     <div className="w-full mx-auto">
      
-      <Tabs defaultValue="InfoTable" className="md:flex md:justify-end">
-        <TabsList className="bg-opacity-40 flex md:flex-col justify-center sm:justify-between flex-wrap md:flex-nowrap px-4 md:px-0 md:py-4 md:justify-start w-full mx-auto h-[100px] sm:h-[60px] md:w-[60px] md:h-[100vh] gap-3 md:fixed md:left-0 md:bottom-0 md:z-30 rounded-none">
+      <Tabs defaultValue="InfoTable" className="md:flex md:justify-end ">
+        <TabsList className="bg-opacity-40 flex md:flex-col justify-center sm:justify-evenly flex-wrap md:flex-nowrap px-4 md:px-0 md:py-2 md:justify-start w-full mx-auto h-[100px] sm:h-[60px] md:w-[60px] md:h-[100%] gap-3 md:fixed md:left-0 md:top-0 md:z-30 rounded-none md:mb-8">
           <div className="hidden sm:block md:mb-12">
             <Link to="/">
               <img
@@ -28,7 +28,7 @@ const MainContainer = () => {
               />
             </Link>
           </div>
-          <div className="flex md:flex-col items-center gap-4 flex-wrap justify-center">
+          <div className="flex md:flex-col items-center gap-2 lg:gap-4 flex-wrap justify-center">
             <div>
               <AddClientBtn />
             </div>

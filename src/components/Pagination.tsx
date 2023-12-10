@@ -36,7 +36,7 @@ const Pagination: React.FC<setCurrentClientsPops> = ({setCurrentClients}) => {
   };
 
   return (
-    <ul className="flex md:flex-col md:gap-y-4 gap-x-4 overflow-x-auto items-center justify-center">
+    <ul className="flex md:flex-col md:gap-y-3 gap-x-4 overflow-x-auto items-center justify-center">
       {Array.from(
         {length: Math.ceil(orders.length / ITEMS_PER_PAGE)},
         (_, index) => (
